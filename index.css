@@ -27,12 +27,12 @@
 }
 #home{
     background-color: #fff;
-    height: 100vh;
+    height: 85vh;
 }
 #home .content{
     text-align: center;
-    padding: 300px 0 200px 0;
-    border-bottom:solid 1px #f6f6f6;
+    padding: 250px 0 250px 0;
+    
 
     
 }
@@ -43,7 +43,7 @@
    font-style: normal;
    letter-spacing: -0.05em;
    font-size: 3.5em;
-   color: #4C76E2;
+   color: #4b89dc;
 }
 #home .content p{
    font-family: "Poppins";
@@ -57,25 +57,35 @@
 
 #about .content .leftside{
     background-color: #fff;
-    padding: 60px 20px 60px 20px;
-    height: 100vh;
+    padding: 70px 20px 60px 20px;
+   
     
     
 }
 
-#about .content .rightside {
+#about .content .rightside, #about .content .leftside {
     height: 100vh;
 }
 
 #about .content .rightside  img{
-    padding-top: 60px;
+    padding-top: 70px;
 }
 
+#about .content .leftside ul{
+    list-style: none; 
+    padding: 0 0 30px;
+}
+
+
+#about .content .leftside i{
+    font-size: 15px;
+    padding-right: 5px;
+}
 
 #about .leftside p{
     font-family: "Poppins";
     font-style: normal;
-    font-weight: 200;
+    font-weight: 300;
     letter-spacing: -0.05em;
     color: #333;
     text-align: justify;
@@ -87,15 +97,25 @@
     font-style: normal;
     font-weight: 400;
     letter-spacing: -0.05em;
-    padding-bottom: 10px;
     color: #333;
+    padding-bottom: 20px;
+}
+
+
+#about .leftside h5{
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.05em;
+    color: #333;
+    padding-top: 20px;
     padding-bottom: 20px;
 }
 
 
 #skills .content .leftside{
     background-color: #fff;
-    padding: 60px 20px 60px 20px;
+    padding: 70px 20px 60px 20px;
     height: 100vh;
     border-right:solid 1px #f6f6f6;
     border-top:solid 1px #f6f6f6;
@@ -128,8 +148,8 @@
 
 #skills  .content .rightside {
     height: 100vh;
-    padding: 40px 20px 60px 20px;
-    background-color: #4C76E2;
+    padding: 70px 20px 60px 20px;
+    background-color: #4b89dc;
 }
 
 
@@ -162,6 +182,12 @@
     font-size: 15px;
     padding-right: 5px;
 }
+
+#services{
+    background-color: #fff;
+    height: 100vh;
+}
+
 #contact {
     background-color: #333;
     padding: 30px 0 30px 0;
