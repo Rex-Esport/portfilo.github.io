@@ -17,7 +17,7 @@
    font-weight: 500;
    font-style: normal;
    letter-spacing: -0.05em;
-   font-size: 1em;
+   font-size: 1.05em;
    color: #040615;
    box-shadow:0 -1 0 #f6f6f6;
    border-bottom: solid 1px#f6f6f6;
@@ -27,14 +27,10 @@
 }
 #home{
     background-color: #fff;
-    height: 85vh;
+    height: 100vh;
 }
 #home .content{
-    text-align: center;
-    padding: 250px 0 250px 0;
-    
-
-    
+    padding: 300px 0 200px 0;
 }
 
 #home .content h3{
@@ -42,15 +38,15 @@
    font-weight: 500;
    font-style: normal;
    letter-spacing: -0.05em;
-   font-size: 3.5em;
-   color: #4b89dc;
+   font-size: 3.6em;
+   color: #4C76E2;
 }
 #home .content p{
    font-family: "Poppins";
    font-weight: 500;
    font-style: normal;
    letter-spacing: -0.05em;
-   font-size: 1em;
+   font-size: 1.25em;
    color: #040615;
 }
 
@@ -58,9 +54,6 @@
 #about .content .leftside{
     background-color: #fff;
     padding: 70px 20px 60px 20px;
-   
-    
-    
 }
 
 #about .content .rightside, #about .content .leftside {
@@ -115,7 +108,7 @@
 
 #skills .content .leftside{
     background-color: #fff;
-    padding: 70px 20px 60px 20px;
+    padding: 70px 20px 70px 20px;
     height: 100vh;
     border-right:solid 1px #f6f6f6;
     border-top:solid 1px #f6f6f6;
@@ -149,7 +142,7 @@
 #skills  .content .rightside {
     height: 100vh;
     padding: 70px 20px 60px 20px;
-    background-color: #4b89dc;
+    background-color: #4C76E2;
 }
 
 
@@ -176,6 +169,7 @@
     list-style: none; 
     padding: 0 0 30px;
 }
+
 
 
 #skills .content .leftside i{
